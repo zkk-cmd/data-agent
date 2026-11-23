@@ -1,0 +1,18 @@
+{
+  "api_base": "https://api.deepseek.com",
+  "api_key": "sk-在这里填入你的密钥",
+  "model": "deepseek-chat",
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "max_steps": 40,
+  "request_timeout_sec": 180,
+  "context_limit_chars": 48000,
+  "memory_top_k": 6,
+  "shell": "auto",
+  "command_timeout_sec": 120,
+  "confirm_dangerous": true,
+  "auto_learn": true,
+  "use_mcp": true,
+  "mcp_config": "mcp_servers.json",
+  "skills_dirs": ["skills"]
+}

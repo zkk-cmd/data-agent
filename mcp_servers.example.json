@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "demo": {
+      "command": "python",
+      "args": ["mcp_demo_server.py"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    }
+  }
+}
